@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="viewStart"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120dp"
+        android:text="Quiz"
+        android:textAlignment="center"
+        android:textColor="#6A1C8C"
+        android:textSize="60dp" />
+
+
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="361dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="180dp"
+        android:text="CHOOSE TOPIC"
+        android:textAlignment="center"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/gk"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#12D9EC"
+        android:text="General Knowledge"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/verbal"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#9443C5"
+        android:text="Verbal Reasoning"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/nonVerbal"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#9C27B0"
+        android:text="Quantative Aptitude"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
